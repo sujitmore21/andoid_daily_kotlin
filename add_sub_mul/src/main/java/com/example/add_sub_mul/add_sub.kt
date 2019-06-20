@@ -33,23 +33,39 @@ class add_sub : AppCompatActivity() {
             val num1 = et1.text.toString()
             val num2 = et2.text.toString()
 
-             val add = Integer.parseInt(num1)+Integer.parseInt(num2)
-            txSt.text = ""+add
+            val add = Integer.parseInt(num1) + Integer.parseInt(num2)
+            txSt.text = "" + add
 
-            val sub = Integer.parseInt(num1)+Integer.parseInt(num2)
-            txSt.text = ""+sub
+            btsub.setOnClickListener {
 
-            val mul = Integer.parseInt(num1)+Integer.parseInt(num2)
-            txSt.text = ""+mul
+                val num1 = et1.text.toString()
+                val num2 = et2.text.toString()
 
-            val div = Integer.parseInt(num1)+Integer.parseInt(num2)
-            txSt.text = ""+div
+                val sub = Integer.parseInt(num1) + Integer.parseInt(num2)
+                txSt.text = "" + sub
+
+                btmul.setOnClickListener {
+
+                    val num1 = et1.text.toString()
+                    val num2 = et2.text.toString()
+
+                    val mul = Integer.parseInt(num1) + Integer.parseInt(num2)
+                    txSt.text = "" + mul
+
+                    btdiv.setOnClickListener {
+
+                        val num1 = et1.text.toString()
+                        val num2 = et2.text.toString()
+
+                        val div = Integer.parseInt(num1) + Integer.parseInt(num2)
+                        txSt.text = "" + div
 
 
+                    }
+                }
+            }
 
 
         }
     }
 }
-
-
