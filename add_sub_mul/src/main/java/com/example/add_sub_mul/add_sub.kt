@@ -37,13 +37,13 @@ class add_sub : AppCompatActivity() {
             txSt.text = ""+add
 
             val sub = Integer.parseInt(num1)+Integer.parseInt(num2)
-            txSt.text = ""-sub
+            txSt.text = ""+sub
 
             val mul = Integer.parseInt(num1)+Integer.parseInt(num2)
-            txSt.text = ""*mul
+            txSt.text = ""+mul
 
-            val num = Integer.parseInt(num1)+Integer.parseInt(num2)
-            txSt.text = ""/div
+            val div = Integer.parseInt(num1)+Integer.parseInt(num2)
+            txSt.text = ""+div
 
 
 
