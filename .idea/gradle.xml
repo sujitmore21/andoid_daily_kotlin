@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/add_sub_mul" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/gst_calculator" />
+            <option value="$PROJECT_DIR$/relativelayout" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

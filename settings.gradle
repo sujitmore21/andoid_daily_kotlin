@@ -1,1 +1,1 @@
-include ':app', ':add_sub_mul', ':gst_calculator'
+include ':app', ':add_sub_mul', ':gst_calculator', ':relativelayout'
