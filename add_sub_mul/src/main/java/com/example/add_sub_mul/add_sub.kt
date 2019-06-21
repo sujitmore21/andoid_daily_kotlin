@@ -24,9 +24,9 @@ class add_sub : AppCompatActivity() {
 
         val btmul = findViewById<Button>(R.id.mul)
 
-        val btdiv = findViewById<Button>(R.id.div)
+        val btdiv = findViewById<Button>(R.id.divide)
 
-        val txSt = findViewById<TextView>(R.id.txSt)
+        val txSt = findViewById<TextView>(R.id.result)
 
         btadd.setOnClickListener {
 
@@ -41,7 +41,7 @@ class add_sub : AppCompatActivity() {
                 val num1 = et1.text.toString()
                 val num2 = et2.text.toString()
 
-                val sub = Integer.parseInt(num1) + Integer.parseInt(num2)
+                val sub = Integer.parseInt(num1) - Integer.parseInt(num2)
                 txSt.text = "" + sub
 
                 btmul.setOnClickListener {
@@ -49,7 +49,7 @@ class add_sub : AppCompatActivity() {
                     val num1 = et1.text.toString()
                     val num2 = et2.text.toString()
 
-                    val mul = Integer.parseInt(num1) + Integer.parseInt(num2)
+                    val mul = Integer.parseInt(num1) * Integer.parseInt(num2)
                     txSt.text = "" + mul
 
                     btdiv.setOnClickListener {
@@ -57,7 +57,7 @@ class add_sub : AppCompatActivity() {
                         val num1 = et1.text.toString()
                         val num2 = et2.text.toString()
 
-                        val div = Integer.parseInt(num1) + Integer.parseInt(num2)
+                        val div = Integer.parseInt(num1) / Integer.parseInt(num2)
                         txSt.text = "" + div
 
 
