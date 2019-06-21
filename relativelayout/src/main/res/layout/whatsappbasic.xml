@@ -11,7 +11,7 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/llBtm"
             android:text="Hi"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:padding="30dp"
             android:layout_marginBottom="20dp"
             android:background="#e8e8e8"
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_above="@+id/txtHi"
             android:text="Hello"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:padding="30dp"
             android:layout_marginBottom="20dp"
             android:background="#e8e8e8"/>
