@@ -10,7 +10,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/add_sub_mul" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/findmybday" />
+            <option value="$PROJECT_DIR$/findmybdayyear" />
             <option value="$PROJECT_DIR$/gst_calculator" />
+            <option value="$PROJECT_DIR$/mybdayyear" />
             <option value="$PROJECT_DIR$/mydemolibrary" />
             <option value="$PROJECT_DIR$/relativelayout" />
           </set>
