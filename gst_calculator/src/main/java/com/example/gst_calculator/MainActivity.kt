@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
 
             val total = Integer.parseInt(edit_total.text.toString())
             val percentage = Integer.parseInt(edit_percentage.text.toString())
-
             val amount = Math.round((total * 100 / (100 + percentage)).toFloat())
             total_amount.text = "Net Amount is " + Integer.toString(amount)
 
