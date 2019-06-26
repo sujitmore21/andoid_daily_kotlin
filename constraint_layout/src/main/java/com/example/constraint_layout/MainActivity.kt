@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
      val cal =findViewById<CalendarView>(R.id.cal)
         val txtAg = findViewById<TextView>(R.id.txtAge)
-        
+
         cal.setOnDateChangeListener { _ , year, month, dayOfMonth -> //View - which view is call //is not use View - use "-"
             txtAg.text= ageobj.calAge(year,month,dayOfMonth).toString() }
     }
