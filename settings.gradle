@@ -1,1 +1,1 @@
-include ':app', ':calculator', ':gst_calculator', ':relativelayout', ':mydemolibrary', ':findmybdayyear', ':findmybday', ':mybdayyear', ':constraint_layout'
+include ':app', ':calculator', ':gst_calculator', ':relativelayout', ':mydemolibrary', ':findmybdayyear', ':findmybday', ':mybdayyear', ':constraint_layout', ':recyclerview'
