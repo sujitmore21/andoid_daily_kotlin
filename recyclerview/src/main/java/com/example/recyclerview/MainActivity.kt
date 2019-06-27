@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val dataSet = ArrayList<MyData>()
         dataSet.add(
             MyData(
@@ -20,25 +21,25 @@ class MainActivity : AppCompatActivity() {
         )
         dataSet.add(
             MyData(
-                R.mipmap.ic_launcher,
+                R.drawable.ic_mic_black_24dp,
                 "Apple"
             )
         )
         dataSet.add(
             MyData(
-                R.mipmap.ic_launcher,
+                R.drawable.ic_mic_black_24dp,
                 "Samsung"
             )
         )
         dataSet.add(
             MyData(
-                R.mipmap.ic_launcher,
+                R.drawable.ic_mic_black_24dp,
                 "Windows"
             )
         )
         dataSet.add(
             MyData(
-                R.mipmap.ic_launcher,
+                R.drawable.ic_mic_black_24dp,
                 "Rim"
             )
         )
