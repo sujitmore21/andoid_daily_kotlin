@@ -1,5 +1,6 @@
 package com.example.interactcomm
 
+import android.app.Activity
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -21,8 +22,28 @@ class MainActivity : AppCompatActivity() {
             bnd.putString("my_name",etTx.text.toString())
 
             int.putExtras(bnd)
-            startActivity(int)
-                finish()
+
+            startActivityForResult(int, REQ_DASH)
+            //startActivity(int)
+       //         finish()
+        }
+    }
+
+    companion object{
+
+        const val KEY_NAME = "my_name"
+        const val REQ_DASH = 4568
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if(resultCode == REQ_DASH){
+
+            if(resultCode == Activity.RESULT_OK){
+                val processedData = data?.extras?.getString(DashActivity.KEY_RES)
+                etTx.setText(processedData)
+            }
         }
     }
 }
